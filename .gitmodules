@@ -1,3 +1,6 @@
 [submodule "mr4ds"]
 	path = mr4ds
 	url = https://github.com/Azure/learnAnalytics-mr4ds.git
+[submodule "mrs-spark"]
+	path = mrs-spark
+	url = git@github.com:Azure/learnAnalytics-mrs-spark.git
