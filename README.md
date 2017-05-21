@@ -16,4 +16,10 @@ Note, this is the _delivery_ repository. This means that there is no content spe
 git clone --recursive https://github.com/Azure/learnAnalytics-mr4ds-spark.git
 ```
 
-Submit issues and pull requests to the underlying submodule itself. For example, if you find an error in the Microsoft R for Data Science module, submit an issue [here](https://github.com/Azure/learnAnalytics-mr4ds/tree/cefb5ecf600233b387ef41a49b0e6e6838c03ecb).
+Alternatively, clone the barebone repository and then update
+
+```
+git submodule update --init --recursive
+```
+
+Submit issues and pull requests to the underlying submodule itself. For example, if you find an error in the Microsoft R for Data Science module, submit an issue [here](https://github.com/Azure/learnAnalytics-mr4ds/).
